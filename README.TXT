@@ -12,3 +12,14 @@ It is discussed in chapter 3.
 To use this project, create an instance of class NumberDisplay. Then inspect this 
 instance and leave the inspector window open. With the inspector window open, 
 call the object's methods, such as increment and setValue.
+
+Lab 3
+
+1. x
+2. x
+3. x
+4. x
+5. the private in value goes back to 0 after calling the increment method 24 times
+6. NumberDisplay hours = new NumberDisplay(24);
+   NumberDisplay minutes = new NumberDisplay(60);
+7. 

@@ -23,3 +23,7 @@ Lab 3
 6. NumberDisplay hours = new NumberDisplay(24);
    NumberDisplay minutes = new NumberDisplay(60);
 7. display.getValue() doesn't use ; since it isn't a statement, unlike display.increment();
+8. the maximum number for the display variable is 6. if i set the value to 5 and 
+get it, the terminal will return 5. if i set the value to above 6 and get it, the terminal 
+will still show 5 because 10 is above the maximum (6)
+9. 

@@ -22,4 +22,4 @@ Lab 3
 5. the private in value goes back to 0 after calling the increment method 24 times
 6. NumberDisplay hours = new NumberDisplay(24);
    NumberDisplay minutes = new NumberDisplay(60);
-7. 
+7. display.getValue() doesn't use ; since it isn't a statement, unlike display.increment();

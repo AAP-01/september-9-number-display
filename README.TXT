@@ -28,4 +28,10 @@ get it, the terminal will return 5. if i set the value to above 6 and get it, th
 will still show 5 because 10 is above the maximum (6)
 9. for the digit variable, the rollover limit (maximum number) is 10. if i setValue to 10 and get 
 it, the terminal will return 0 because the value hit the limit and reset
-10. 
+10. the error message says: Error: non-static method getValue() cannot be referenced from a static context
+the error happened because the get method used the class NumberDisplay, instead of the variable, digit, which actually 
+stores the value
+11. the error message says: Error: '.class' expected
+this happened because the parameter (int 5) shouldn't have int in it.
+12. if((replacementValue >= 0) && (replacementValue <= limit)) was modified. now that there's a <=, getting the value will 
+10, even if the rollover limit is 10 (which would normally reset the return number to 0

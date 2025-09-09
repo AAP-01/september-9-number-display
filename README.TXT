@@ -26,4 +26,6 @@ Lab 3
 8. the maximum number for the display variable is 6. if i set the value to 5 and 
 get it, the terminal will return 5. if i set the value to above 6 and get it, the terminal 
 will still show 5 because 10 is above the maximum (6)
-9. 
+9. for the digit variable, the rollover limit (maximum number) is 10. if i setValue to 10 and get 
+it, the terminal will return 0 because the value hit the limit and reset
+10. 

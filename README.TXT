@@ -35,3 +35,12 @@ stores the value
 this happened because the parameter (int 5) shouldn't have int in it.
 12. if((replacementValue >= 0) && (replacementValue <= limit)) was modified. now that there's a <=, getting the value will 
 10, even if the rollover limit is 10 (which would normally reset the return number to 0
+13. x
+14. the parameters can now use negative numbers or numbers past the limit since only one condition needs to be true
+(getValue() will return 7 even if the rolloverLimit is 6 for example)
+15. (! in an expression means the opposite of what the expression says)
+!(4<5) returns false because 4<5 is true, but the ! isn't
+!false returns true because the opposite of false is true
+(2 > 2)||((4 == 4) && (1 < 0)) returns false because 2>2 isn't true and ((4 == 4) && (1 < 0)) returns false since both must be true (1<0 is false)
+(2 > 2)||(4 == 4) && (1 < 0) returns false because 2>2 and 1<0 are not true
+(34 != 33) && !false returns true because != means not equal (34 and 33 aren't the same) and !false means true

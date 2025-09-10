@@ -44,3 +44,8 @@ this happened because the parameter (int 5) shouldn't have int in it.
 (2 > 2)||((4 == 4) && (1 < 0)) returns false because 2>2 isn't true and ((4 == 4) && (1 < 0)) returns false since both must be true (1<0 is false)
 (2 > 2)||(4 == 4) && (1 < 0) returns false because 2>2 and 1<0 are not true
 (34 != 33) && !false returns true because != means not equal (34 and 33 aren't the same) and !false means true
+
+16. (a && b)||(!a && !b)
+17. (a && !b)||(!a && b) (exclusive or)
+18. if i input a number higher than 3 digits, getValue will just return "00", a two digit number, but if if i setValue to 100 from 1000, getValue 
+will return 100 (a three digit number)

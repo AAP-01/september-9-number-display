@@ -49,3 +49,7 @@ this happened because the parameter (int 5) shouldn't have int in it.
 17. (a && !b)||(!a && b) (exclusive or)
 18. if i input a number higher than 3 digits, getValue will just return "00", a two digit number, but if if i setValue to 100 from 1000, getValue 
 will return 100 (a three digit number)
+19. if i type return = value + "";, it'll return 15 (rolloverLimit is 15). if i type return = "" + value;, it'll return 15. the return is the same 
+there is nothing in the parentheses
+20. the first epression would print 12cat, but the second expression would print cat39 instead of cat12. it printed cat39 because 
+String ("cat") was the first type the program encounters so it assumes the rest are
